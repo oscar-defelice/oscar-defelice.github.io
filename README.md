@@ -101,9 +101,3 @@ The website map can be represented by the following tree.
     │   └── _menu1.scss
     └── style.scss
 ```
-
-
-
-## License
-
-MIT
