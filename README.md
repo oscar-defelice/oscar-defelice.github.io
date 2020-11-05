@@ -17,6 +17,7 @@ The website map can be represented by the following tree.
 
 ### Repository Tree
 
+```bash
 ├── .gitignore
 ├── _config.yml 
 ├── docs
@@ -99,6 +100,7 @@ The website map can be represented by the following tree.
     ├── menu
     │   └── _menu1.scss
     └── style.scss
+```
 
 
 
