@@ -17,52 +17,89 @@ The website map can be represented by the following tree.
 
 ### Repository Tree
 
-    ├─ assets
-    │  ├─ css
-    │  │    ├─ theme-1.css
-    │  │    ├─ theme-2.css
-    │  │    ├─ theme-3.css
-    │  │    ├─ theme-4.css
-    │  │    ├─ theme-5.css
-    │  │    ├─ theme-6.css
-    │  │    ├─ theme-7.css
-    │  │    └─ theme-8.css
-    │  ├─ images
-    │  │    ├─ profile.jpg
-    │  │    ├─ theme-1.css
-    │  │    └─ theme-8.css
-    │  ├─ plugins
-    │  │    ├─ bootstrap
-    │  │    │   └─ js
-    │  │    │      └─ bootstrap.min.js
-    │  │    ├─ jquery-3.3.1.min.js
-    │  │    └─ popper.min.js
-    │  ├─ octicons.woff
-    │  ├─ octicons.woff2
-    │  ├─ repository-tree.js
-    │  └─ repository-tree.js.map
-    ├─ src
-    │  ├─ components
-    │  │  ├─ NavBar.vue
-    │  │  ├─ Tree.vue
-    │  │  └─ main.vue
-    │  ├─ vuex
-    │  │  ├─ modules
-    │  │  │  └─ github.js
-    │  │  ├─ actions.js
-    │  │  ├─ mutation-types.js
-    │  │  └─ store.js
-    │  ├─ App.vue
-    │  ├─ main.js
-    │  └─ router.js
-    ├─ .babelrc
-    ├─ .editorconfig
-    ├─ .gitignore
-    ├─ LICENSE
-    ├─ README.md
-    ├─ index.html
-    ├─ package.json
-    └─ webpack.config.js
+├── .gitignore
+├── _config.yml 
+├── docs
+│   ├── article.html
+│   ├── css
+│   │   ├── font-awesome.min.css
+│   │   └── style.css
+│   ├── img
+│   │   ├── cart.svg
+│   │   ├── icon.png
+│   │   ├── logo.png
+│   │   ├── Oscar.png
+│   │   ├── OscarAboutMe.png
+│   │   ├── OscarLogo-Colour.png
+│   │   ├── OscarLogo-ColourHoriz.png
+│   │   ├── OscarLogoColour-noName.png
+│   │   ├── OscarLogoNameHorizWhite.png
+│   │   ├── OscarLogoNameWhite.png
+│   │   ├── OscarWebSpace.gif
+│   │   ├── pizza-1.png
+│   │   ├── pizza-2.png
+│   │   ├── pizza-3.png
+│   │   ├── pizza-4.png
+│   │   ├── post-recSys.png
+│   │   ├── screenshot.jpg
+│   │   └── TextClassifier.png
+│   ├── index.html
+│   ├── js
+│   │   ├── bootstrap.min.js
+│   │   ├── custom-general.js
+│   │   ├── jquery.min.js
+│   │   ├── mycart-custom.js
+│   │   └── mycart.js
+│   └── login.html
+├── favicon.ico
+├── gulpfile.js
+├── OscarWebSpace.gif
+├── package.json
+├── README.md
+└── src
+├── article.html
+├── img
+│   ├── cart.svg
+│   ├── icon.png
+│   ├── logo.png
+│   ├── pizza-1.png
+│   ├── pizza-2.png
+│   ├── pizza-3.png
+│   ├── pizza-4.png
+│   └── screenshot.jpg
+├── index.html
+├── js
+│   ├── bootstrap.min.js
+│   ├── custom-general.js
+│   ├── jquery.min.js
+│   ├── mycart-custom.js
+│   └── mycart.js
+├── login.html
+├── partials
+│   ├── blocks
+│   │   ├── cart
+│   │   │   └── cart1.html
+│   │   ├── hero
+│   │   │   ├── hero1.html
+│   │   │   └── hero2.html
+│   │   └── menu
+│   │       └── menu1.html
+│   ├── footer.html
+│   ├── head.html
+│   ├── navbar.html
+│   └── scripts.html
+└── sass
+    ├── cart
+    │   └── _cart1.scss
+    ├── footer
+    │   └── _footer1.scss
+    ├── hero
+    │   ├── _hero1.scss
+    │   └── _hero2.scss
+    ├── menu
+    │   └── _menu1.scss
+    └── style.scss
+
 
 
 ## License
