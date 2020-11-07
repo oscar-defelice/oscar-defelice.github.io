@@ -18,17 +18,16 @@ The website map can be represented by the following tree.
 ### Repository Tree
 
 ```bash
+.
 ├── .gitignore
-├── _config.yml 
+├── _config.yml
 ├── docs
 │   ├── article.html
 │   ├── css
 │   │   ├── font-awesome.min.css
 │   │   └── style.css
+│   ├── favicon.ico
 │   ├── img
-│   │   ├── cart.svg
-│   │   ├── icon.png
-│   │   ├── logo.png
 │   │   ├── Oscar.png
 │   │   ├── OscarAboutMe.png
 │   │   ├── OscarLogo-Colour.png
@@ -37,12 +36,7 @@ The website map can be represented by the following tree.
 │   │   ├── OscarLogoNameHorizWhite.png
 │   │   ├── OscarLogoNameWhite.png
 │   │   ├── OscarWebSpace.gif
-│   │   ├── pizza-1.png
-│   │   ├── pizza-2.png
-│   │   ├── pizza-3.png
-│   │   ├── pizza-4.png
 │   │   ├── post-recSys.png
-│   │   ├── screenshot.jpg
 │   │   └── TextClassifier.png
 │   ├── index.html
 │   ├── js
@@ -58,46 +52,48 @@ The website map can be represented by the following tree.
 ├── package.json
 ├── README.md
 └── src
-├── article.html
-├── img
-│   ├── cart.svg
-│   ├── icon.png
-│   ├── logo.png
-│   ├── pizza-1.png
-│   ├── pizza-2.png
-│   ├── pizza-3.png
-│   ├── pizza-4.png
-│   └── screenshot.jpg
-├── index.html
-├── js
-│   ├── bootstrap.min.js
-│   ├── custom-general.js
-│   ├── jquery.min.js
-│   ├── mycart-custom.js
-│   └── mycart.js
-├── login.html
-├── partials
-│   ├── blocks
-│   │   ├── cart
-│   │   │   └── cart1.html
-│   │   ├── hero
-│   │   │   ├── hero1.html
-│   │   │   └── hero2.html
-│   │   └── menu
-│   │       └── menu1.html
-│   ├── footer.html
-│   ├── head.html
-│   ├── navbar.html
-│   └── scripts.html
-└── sass
-    ├── cart
-    │   └── _cart1.scss
-    ├── footer
-    │   └── _footer1.scss
-    ├── hero
-    │   ├── _hero1.scss
-    │   └── _hero2.scss
-    ├── menu
-    │   └── _menu1.scss
-    └── style.scss
+    ├── article.html
+    ├── img
+    │   ├── Oscar.png
+    │   ├── OscarAboutMe.png
+    │   ├── OscarLogo-Colour.png
+    │   ├── OscarLogo-ColourHoriz.png
+    │   ├── OscarLogoColour-noName.png
+    │   ├── OscarLogoNameHorizWhite.png
+    │   ├── OscarLogoNameWhite.png
+    │   ├── OscarWebSpace.gif
+    │   ├── post-recSys.png
+    │   └── TextClassifier.png
+    ├── index.html
+    ├── js
+    │   ├── bootstrap.min.js
+    │   ├── custom-general.js
+    │   ├── jquery.min.js
+    │   ├── mycart-custom.js
+    │   └── mycart.js
+    ├── login.html
+    ├── partials
+    │   ├── blocks
+    │   │   ├── cart
+    │   │   │   └── cart1.html
+    │   │   ├── hero
+    │   │   │   ├── hero1.html
+    │   │   │   └── hero2.html
+    │   │   └── menu
+    │   │       └── menu1.html
+    │   ├── footer.html
+    │   ├── head.html
+    │   ├── navbar.html
+    │   └── scripts.html
+    └── sass
+        ├── cart
+        │   └── _cart1.scss
+        ├── footer
+        │   └── _footer1.scss
+        ├── hero
+        │   ├── _hero1.scss
+        │   └── _hero2.scss
+        ├── menu
+        │   └── _menu1.scss
+        └── style.scss
 ```
