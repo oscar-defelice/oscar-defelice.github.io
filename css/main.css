@@ -1120,10 +1120,10 @@ header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	background: url("../images/OscarLogoColour-noName.png") no-repeat center;
-	background-size: 50px 50px;
+	background-size: 45px 45px;
 }
 
 /**
@@ -1233,7 +1233,7 @@ header .logo a {
 /* dropdown nav */
 .main-navigation {
 	background: #143444cc;
-	padding: 24px 30px 42px;
+	padding: 24px 30px 14px;
 	margin: 0;
 	width: 100%;
 	height: auto;
