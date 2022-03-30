@@ -21,7 +21,6 @@ The website map can be represented by the following tree.
 .
 ├── .gitignore
 ├── _config.yml
-├── CNAME
 ├── css
 │   ├── base.css
 │   ├── font-awesome
