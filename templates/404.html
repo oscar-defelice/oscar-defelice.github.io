@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link type="text/css" rel="stylesheet" href="../static/style.css">
+    <title>Page not found | Sorry dude!</title>
+
+    <style>
+        @font-face {
+            font-family: 'Akkurat';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Akkurat Regular'), local('Akkurat-Regular'), url(https://assets-crowdcube-com.s3-eu-west-1.amazonaws.com/fonts/akkurat/regular/lineto-akkurat-regular.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Akkurat';
+            font-style: bold;
+            font-weight: 500;
+            src: local('Akkurat Bold'), local('Akkurat-Bold'), url(https://assets-crowdcube-com.s3-eu-west-1.amazonaws.com/fonts/akkurat/bold/lineto-akkurat-bold.woff) format('woff');
+        }
+
+        html {
+            box-sizing: border-box;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-size: 100%;
+        }
+
+        * {
+            -webkit-font-smoothing: antialiased;
+        }
+
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            color: #030352;
+            font-family: akkurat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .header-container {
+            display: inline-block;
+            margin-bottom: 10px;
+            margin-top: 30px;
+            position: relative;
+        }
+
+        .header-container img {
+            position: absolute;
+            width: 290px;
+            height: auto;
+            margin-left: 80px;
+            margin-top: -220px;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        h1 {
+            color: white;
+            display: inline;
+            font-size: 200px;
+            font-weight: bold;
+        }
+
+        h1 .invisible {
+            color: transparent;
+            width: 0.37em;
+            display: inline-block;
+            position: relative;
+            z-index: 2;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            align-items: center;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            padding: 20px;
+            text-align: center;
+            width: 100vw;
+        }
+
+        @media (max-width: 650px) {
+            .header-container {
+                margin-bottom: 10px;
+            }
+
+            .header-container img {
+                margin-top: 12px;
+                margin-left: 44px;
+                height: auto;
+                width: 115px;
+            }
+
+            h1 {
+                font-size: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="error">
+            <div class="header-container">
+                <img src="./images/snoopy.gif" alt="404 image" />
+                <!--<img src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIG92ZXJmbG93PSJ2aXNpYmxlIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB2aWV3Qm94PSIwIDAgMTQ5LjIxMDAwNjcxMzg2NzIgMTU2LjUzOTk5MzI4NjEzMjgiIHdpZHRoPSIyMzIuNjM2MzYzNjM2MzYzNjUiIGhlaWdodD0iMjQzLjcxNDI4NTcxNDI4NTY3Ij48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLCAxKSI+PGRlZnM+PHN0eWxlPi5jbHMtMV8xNTYzMjg4ODQ0ODg1e2ZpbGw6bm9uZTtzdHJva2U6I2ZmNTEwMDtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjNweDt9PC9zdHlsZT48L2RlZnM+PGcgaWQ9IkxheWVyXzJfMTU2MzI4ODg0NDg4NSI+PGcgaWQ9IkxheWVyXzEtMl8xNTYzMjg4ODQ0ODg1Ij48cGF0aCBkPSJNMzguNDEsODIuNzNDMjkuODgsODQuMjgsMjEsNzkuNjUsMTYsNzIuNTJTOS43OCw1Ni4yLDEwLjkzLDQ3LjYxYy43LTUuMiwyLjMzLTEwLjQ0LDUuNzctMTQuMzksNy4yNS04LjMzLDIxLjEzLTguMzksMzAuMTctMnMxMy42OSwxNy41LDE0LjkxLDI4LjQ4Yy41LDQuNDQuNDksOS0xLDEzLjI1QzU3LjM2LDgyLjE5LDQ2LDg3LjY1LDM2LjYzLDg0LjQ4IiBjbGFzcz0iY2xzLTFfMTU2MzI4ODg0NDg4NSIgdmVjdG9yLWVmZmVjdD0ibm9uLXNjYWxpbmctc3Ryb2tlIi8+PHBhdGggZD0iTTMwLjQ2LDkyLjY1YzYuMTQsMiwxMi43OSwzLjIyLDE5LDEuNThDNjAsOTEuNSw2Ny4xMSw4MC45NCw2OC4zMiw3MC4xOHMtMi41OC0yMS41Mi03LjkxLTMwLjk0Yy00LjU5LTguMDktMTAuNzQtMTUuOC0xOS4zLTE5LjQ0LTExLjgzLTUtMjctLjM1LTMzLjg5LDEwLjQ3LTUsNy44My01Ljc1LDE3LjYtNS43MiwyNi45QTQxLDQxLDAsMCwwLDIuNzQsNjguNzJDNi4yMyw4MC41NiwxOC4zLDg3LjM1LDI5LjMxLDkyLjkyIiBjbGFzcz0iY2xzLTFfMTU2MzI4ODg0NDg4NSIgdmVjdG9yLWVmZmVjdD0ibm9uLXNjYWxpbmctc3Ryb2tlIi8+PHBhdGggZD0iTTE3Ljc1LDIxLjE1YzcuMTEtNS4zMSwzMi4xNS0xMi42OCw0MS0xMiwxMywxLDI3Ljg3LDMxLjYyLDI5LjI4LDM1Ljg2LDEuODcsNS42LDEuNzcsMTEuNjQsMS42NCwxNy41NGExMi4yNSwxMi4yNSwwLDAsMS0uOTEsNS4zMkExMi40MSwxMi40MSwwLDAsMSw4Ni4yMSw3MWMtOC44NCw4LjYyLTE4LjMzLDE3LjYtMzAuMzYsMjAuMzciIGNsYXNzPSJjbHMtMV8xNTYzMjg4ODQ0ODg1IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz48cGF0aCBkPSJNNjQuMjEsMTMuMDYsNzkuNjksNmM3LjEzLTMuMjUsMjAuMTYtNC41NiwyNy41Ni0yYTIxLjg1LDIxLjg1LDAsMCwxLDguNTgsNi4wNywzMy40NiwzMy40NiwwLDAsMSw5LjEsMjIuMTEsMjcuMSwyNy4xLDAsMCwxLTEwLDIxLjM4LDQ4LjM3LDQ4LjM3LDAsMCwxLTEwLjA2LDUuNTFMODkuMTEsNjYuMTciIGNsYXNzPSJjbHMtMV8xNTYzMjg4ODQ0ODg1IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz48cGF0aCBkPSJNMTEwLjc1LDYuMTVjNi43OC00LjU1LDIwLTYuNDQsMjcuMi0yLjU1czgsMTMuODQsNy43MywyMi4wN2E3LjI3LDcuMjcsMCwwLDEtLjg4LDMuOTQsNy4yOSw3LjI5LDAsMCwxLTMuMjMsMi4yMWwtMTcuNjMsNy43NyIgY2xhc3M9ImNscy0xXzE1NjMyODg4NDQ4ODUiIHZlY3Rvci1lZmZlY3Q9Im5vbi1zY2FsaW5nLXN0cm9rZSIvPjxwYXRoIGQ9Ik00NS41MSw3OC42MmMtNy41NCwyLTE2LS45MS0yMS4yMy02LjdzLTcuMzctMTQtNi40LTIxLjc5Yy4zOC0zLjA4LDIuNzctNi45NCw1LjYtNS42Ni0uOTQsNS42OS0xLjExLDExLjcsMSwxNy4wOXM2LjgsMTAsMTIuNTQsMTAuN2MxLjkzLjIzLDMuOTMsMCw1Ljc4LjYyczMuNTYsMi4zOCwzLjEyLDQuMjgiIGNsYXNzPSJjbHMtMV8xNTYzMjg4ODQ0ODg1IiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiLz48cGF0aCBkPSJNNDIuNjcsOTcuMjksMjguOTMsMTM4LjA3YTcuODQsNy44NCwwLDAsMC0uNiwzLjMzYy4yOCwyLjQ1LDIuNzksNCw1LjE5LDQuNjJhMTQuMjIsMTQuMjIsMCwwLDAsMTAuMzMtMS41Miw3LjI3LDcuMjcsMCwwLDAsMy0yLjg3LDkuNzUsOS43NSwwLDAsMCwuNzktMy4xMmMyLjM4LTE3LDMuODktMjcuNzYsNi4yNi00NC43MiIgY2xhc3M9ImNscy0xXzE1NjMyODg4NDQ4ODUiIHZlY3Rvci1lZmZlY3Q9Im5vbi1zY2FsaW5nLXN0cm9rZSIvPjxwYXRoIGQ9Ik02My40NCw4NS4zM1E2MC41MywxMTcuNyw1NywxNTBhMTcuNTgsMTcuNTgsMCwwLDAsMTYuMiwxLjg0YzEuNjktLjY3LDMuNDEtMS43Nyw0LTMuNTFhNy41NCw3LjU0LDAsMCwwLS4xMi0zLjcxQTM2NC42MywzNjQuNjMsMCwwLDEsNzAuMyw4Ni40NiIgY2xhc3M9ImNscy0xXzE1NjMyODg4NDQ4ODUiIHZlY3Rvci1lZmZlY3Q9Im5vbi1zY2FsaW5nLXN0cm9rZSIvPjxwYXRoIGQ9Ik03NS44LDgwLjU1YzYuNDcsMTIuNDUsMTcuOSwzNC45MywyNC4zNiw0Ny4zOS45MywxLjc5LDEuODcsMy45NCwxLDUuNzUtLjgyLDEuNjItMi43OSwyLjI0LTQuNTcsMi42Ni0yLjg3LjY5LTYuMzksMS4wOS04LjM1LTEuMTJhOC43NSw4Ljc1LDAsMCwxLTEuNTgtMy40Niw0MDcuNjksNDA3LjY5LDAsMCwwLTE2LTQ1LjQzIiBjbGFzcz0iY2xzLTFfMTU2MzI4ODg0NDg4NSIgdmVjdG9yLWVmZmVjdD0ibm9uLXNjYWxpbmctc3Ryb2tlIi8+PC9nPjwvZz48L2c+PC9zdmc+" alt="404 image" />-->
+                <h1>404</h1>
+            </div>
+
+            <h2>Oops! You landed in a space was not intended to be shown!</h2>
+            <p>
+                Try to go back to our <a href="index.html">homepage</a>.
+            </p>
+        </div>
+        
+        <div class="footer">
+        <p>Developed with <span style="color: #e25555;">&#9829;</span> by Oscar</p>
+    </div>
+    </main>
+</body>
+
+</html>
