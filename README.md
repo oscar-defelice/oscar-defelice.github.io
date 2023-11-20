@@ -20,6 +20,7 @@ The website map can be represented by the following tree.
 ```bash
 .
 ├── .gitignore
+├── .htaccess
 ├── _config.yml
 ├── css
 │   ├── base.css
@@ -117,6 +118,7 @@ The website map can be represented by the following tree.
 │   ├── OscarLogoColour-noName.png
 │   ├── OscarLogoNameHorizWhite.png
 │   ├── OscarLogoNameWhite.png
+│   ├── snoopy.gif
 │   └── portfolio
 │       ├── arcimboldo.png
 │       ├── cat_style_transfer.png
@@ -156,5 +158,7 @@ The website map can be represented by the following tree.
 ├── LICENSE
 ├── OscarWebSpace.gif
 ├── projects.html
-└── README.md
+├── README.md
+├── templates
+└── └── 404.hmtl
 ```
