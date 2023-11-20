@@ -22,6 +22,7 @@ The website map can be represented by the following tree.
 ├── .gitignore
 ├── .htaccess
 ├── _config.yml
+├── 404.html
 ├── css
 │   ├── base.css
 │   ├── font-awesome
@@ -158,7 +159,5 @@ The website map can be represented by the following tree.
 ├── LICENSE
 ├── OscarWebSpace.gif
 ├── projects.html
-├── README.md
-├── templates
-└── └── 404.hmtl
+└── README.md
 ```
